@@ -28,6 +28,18 @@
         android:textSize="20sp"
         android:layout_gravity="center"
         android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/activity_landing_restaurantListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="FAVORIT RESTAURANTS"
+        android:textColor="@color/semiTransparentWhite"
+        android:textSize="20sp"
+        android:gravity="center"
         android:textStyle="bold"/>
 
 </LinearLayout>

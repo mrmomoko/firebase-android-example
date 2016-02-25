@@ -1,4 +1,4 @@
-package com.toggleable.morgan.firebaseloginexample;
+package com.toggleable.morgan.firebaseloginexample.view;
 
 
 import android.content.Intent;
@@ -12,6 +12,8 @@ import android.widget.Toast;
 import com.firebase.client.AuthData;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
+import com.toggleable.morgan.firebaseloginexample.MyApp;
+import com.toggleable.morgan.firebaseloginexample.R;
 
 import java.util.HashMap;
 import java.util.Map;
