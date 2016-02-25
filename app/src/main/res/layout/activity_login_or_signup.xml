@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/strange_seal_maybe"
+        android:padding="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/weird"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:id="@+id/edit_text_layout"
+        android:layout_below="@id/strange_seal_maybe"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:background="@color/semiTransparentWhite">
+
+        <EditText
+            android:id="@+id/activity_login_or_signup_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            android:hint="EMAIL"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:imeOptions="actionNext"/>
+
+        <EditText
+            android:id="@+id/activity_login_or_signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            android:hint="PASSWORD"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:textStyle="bold"
+            android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="16dp"
+        android:id="@+id/activity_login_or_signup_registerButton"
+        android:layout_below="@+id/edit_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="REGISTER"
+        android:textColor="@color/semiTransparentWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_margin="16dp"
+        android:id="@+id/activity_login_or_signup_loginButton"
+        android:layout_below="@id/activity_login_or_signup_registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/semiTransparentWhite"
+        android:text="LOGIN"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
