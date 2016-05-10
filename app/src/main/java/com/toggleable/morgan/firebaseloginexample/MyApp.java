@@ -1,5 +1,5 @@
 package com.toggleable.morgan.firebaseloginexample;
-
+// so many commits!!
 
 import android.app.Application;
 
