@@ -4,6 +4,7 @@ package com.toggleable.morgan.firebaseloginexample.view;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,11 +21,14 @@ public class LandingActivity extends AppCompatActivity implements View.OnClickLi
     private Button mSeeYourRestaurants;
     private String mUserId;
 
-    @Override
+    private final String TAG = LandingActivity.class.getSimpleName();
+
+    
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
 
+        Log.d(TAG, "Test branch for momoko");
 
         mRestaurantName = (EditText) findViewById(R.id.activity_landing_restaurantName);
         mSubmitButton = (Button) findViewById(R.id.activity_landing_submitButton);
